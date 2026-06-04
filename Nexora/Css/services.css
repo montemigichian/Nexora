@@ -1,0 +1,72 @@
+.plans-box{
+    height: 542px;
+    width: 339px;
+    padding-left: 35px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px rgba(105, 105, 105, 0.677);
+    transition: 0.3s ease;
+    
+}
+.content-box
+{
+    display: flex;
+    justify-content: space-between;
+}
+.plans-box:hover{
+    transform: translateY(-5px);
+}
+i {
+    color: #74C69D;
+    margin-right: 20px;
+}
+.plans-box i {
+    font-size: 20px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-top: 15px;
+    top: 250px;
+}
+span{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+h5{
+    font-family: sans-serif;
+    color:#C7C8C9;
+    font-weight: 100;
+    justify-items: center;
+}
+h4{
+    font-family: 'Roboto';
+}
+.footer div i {
+    color: #ffffff;
+}
+.plans-box button{
+    margin: 35px auto;
+
+}
+@media only screen and (max-width: 768px){
+    .content-box{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+  
+     .nav-links {
+        display: none; 
+    }
+     .menu-btn{
+        display: block;
+     }
+    .nav-menu{
+        right: 20px;
+    }
+   
+}
